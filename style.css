@@ -49,6 +49,7 @@ button img:hover{
 }
 button::after{
     opacity: 0;
+    width: 350%;
     position: absolute;
     content: "mais detalhes";
     background-color: var(--button-color);
@@ -56,6 +57,7 @@ button::after{
 }
 button:hover::after{
     opacity: 1;
+    transform: translateX(60px);
 }
 button img{
     height: 30px;
